@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Ticketing</title>
+
+  <!-- Daisy UI and Tailwind CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Custom CSS Link -->
+<link rel="stylesheet" href="styles/smart-ticketing.css">
+</head>
+<body class="font-raleway">
+  <!-- header section start -->
+  <header class="container mx-auto">
+    <!-- navbar part -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <!-- <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div> -->
+          <a class="btn btn-ghost text-xl">E-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <!-- <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li> -->
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          
+          <a class="btn"><img src="images/bus-icon.png" alt="">Button</a>          
+        </div>
+      </div>
+    </nav>
+
+      <!-- banner part -->
+    <div class="w-full h-[550px] lg:h-[80vh] mx-4 lg:mx-0 mb-4 bg-[url(images/banner.png)] bg-no-repeat bg-center bg-cover rounded-2xl">
+      <!-- <div class="absolute inset-0 bg-black opacity-50"></div> Overlay for better contrast -->
+      <div class="flex flex-col justify-center items-center text-center text-white py-20">
+          <h1 class="text-6xl font-extrabold">
+              End-to-End Travel with <br>
+              <span class="text-lime-500">P Paribahan</span>
+          </h1>
+          <p class="text-lg">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+          <button class="btn text-xl font-extrabold my-5 px-8 bg-lime-500 border-none">Buy Tickets</button>
+      </div>
+  </div>
+    
+  </header>
+  <!-- header section end -->
+
+
+  <!-- main section -->
+  <main class="container mx-auto">
+    <!-- best offer part -->
+    <section class="my-24">
+      <h1 class="text-5xl font-extrabold text-black text-center mb-12">Best offers for you</h1>
+      <div class="flex flex-col-1 justify-center items-center md:flex-row lg:flex-row">
+        <!-- 15% off -->
+        <div class="flex items-center gap-10 bg-amber-400 px-12 rounded-3xl ">
+          <div class=" font-inter">
+            <h1 class="text-4xl font-extrabold">15% OFF</h1>
+            <p class="text-xl my-3">on your next purchase</p>
+            <p class="text-gray-400 text-lg">use by January 2024</p>
+          </div>
+          <img src="images/cupon-devider.png" alt="">
+          <div>
+            <h1 class="text-4xl font-extrabold">NEW15</h1>
+            <p class="text-gray-400 text-lg">Coupon Code</p>
+          </div>
+        </div>
+
+        <!-- 20% off -->
+        <div class="flex justify-center items-center gap-10 bg-amber-400 px-12 rounded-3xl">
+          <div class=" font-inter">
+            <h1 class="text-4xl font-extrabold">15% OFF</h1>
+            <p class="text-xl my-3">on your next purchase</p>
+            <p class="text-gray-400 text-lg">use by January 2024</p>
+          </div>
+          <img src="images/cupon-devider.png" alt="">
+          <div>
+            <h1 class="text-4xl font-extrabold">NEW15</h1>
+            <p class="text-gray-400 text-lg">Coupon Code</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  </main>
+  
+  
+
+  <!-- JavaScript Link -->
+  <script src="scripts/smart-ticketing.js"></script>
+</body>
+</html>
