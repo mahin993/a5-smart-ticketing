@@ -89,6 +89,7 @@ function applyCoupon(){
       couponInput.value = '';
     } else{
       alert('You can apply coupon buying 4 seats');
+      alert('Please, enter valid Coupon Code');
     }
   });
 
@@ -102,7 +103,6 @@ function applyCoupon(){
       applyButton.classList.remove('bg-lime-400', 'text-white');
       applyButton.classList.add('pointer-events-none', 'disabled');
       applyButton.disabled = true;
-      alert('Please, enter valid Coupon Code');
     }
   });
 }
