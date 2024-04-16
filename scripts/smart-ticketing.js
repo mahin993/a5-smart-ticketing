@@ -136,9 +136,9 @@ function toggleNextButton(){
 function createModal(){
   const modalHTML = `
     <div class="flex items-center justify-center fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50">
-      <div class="flex flex-col justify-center items-center bg-white rounded-lg w-full lg:w-1/2 p-10">
+      <div class="flex flex-col justify-center items-center bg-white rounded-lg w-full lg:w-1/2 p-4 lg:p-10 m-10">
         <img src="images/success.png" class="lg:w-[100px] lg:h-[100px] rounded-md mb-4" alt="Success Image">
-        <h2 class="text-2xl font-extrabold mb-4 text-[#27AE60] py-4">SUCCESS</h2>
+        <h2 class="text-2xl font-extrabold mb-4 text-[#27AE60] py-6 lg:py-4">SUCCESS</h2>
         <p class="text-md lg:text-lg font-semibold mb-4 text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
         <p class="text-md text-gray-600 mb-4">Shortly you will find a confirmation in your email.</p>
         <button id="continueButton" class="btn bg-[#27AE60] text-white font-extrabold px-16 py-1 rounded-full">Continue</button>
@@ -159,60 +159,3 @@ function createModal(){
 
   return modalContainer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function createModal() {
-//   // Create modal elements
-//   const modal = document.createElement('div');
-//   modal.className = 'fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex items-center justify-center';
-
-//   const modalContent = document.createElement('div');
-//   modalContent.className = 'bg-white rounded-lg w-1/2 p-8';
-
-//   const title = document.createElement('h2');
-//   title.className = 'text-2xl font-semibold mb-4';
-//   title.innerText = 'SUCCESS';
-
-//   const text1 = document.createElement('p');
-//   text1.className = 'text-lg mb-4';
-//   text1.innerText = 'Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you. ';
-
-//   const text2 = document.createElement('p');
-//   text2.className = 'text-md text-gray-600 mb-4';
-//   text2.innerText = 'Shortly you will find a confirmation in your email.';
-
-//   const continueButton = document.createElement('button');
-//   continueButton.className = 'btn bg-lime-400 text-white font-extrabold';
-//   continueButton.innerText = 'Continue';
-
-//   modalContent.appendChild(title);
-//   modalContent.appendChild(text1);
-//   modalContent.appendChild(text2);
-//   modalContent.appendChild(continueButton);
-
-//   modal.appendChild(modalContent);
-//   document.body.appendChild(modal);
-
-//   // Add event listener to close the modal
-//   continueButton.addEventListener('click', function() {
-//     document.body.removeChild(modal);
-//   });
-// }
