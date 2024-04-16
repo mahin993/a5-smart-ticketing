@@ -89,7 +89,6 @@ function applyCoupon(){
       couponInput.value = '';
     } else{
       alert('You can apply coupon buying 4 seats');
-      alert('Please, enter valid Coupon Code');
     }
   });
 
