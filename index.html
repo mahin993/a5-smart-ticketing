@@ -102,7 +102,7 @@
       </div>
 
       <!-- paribahan container -->
-      <div class="flex flex-col md:flex-row lg:flex-row items-center">
+      <div class="flex flex-col lg:flex-row items-center">
       <!-- paribahan details -->
       <div class="flex flex-col justify-center items-center w-4/5  lg:border-r lg:border-green-500 border-dashed lg:pr-16">
         <div class="flex flex-col lg-flex-row md:flex-row items-center justify-between w-full mt-6 mb-6">
@@ -138,7 +138,7 @@
       </div>
 
       <!-- per seat price -->
-      <div class="flex flex-col justify-center items-center w-1/5 gap-5 text-center">
+      <div class="flex flex-col justify-center items-center w-2/5 gap-5 text-center">
         <img src="images/fare.png" alt="">
         <h2 class="text-3xl font-extrabold"><span id="seat-price">550</span> Taka</h2>
         <h3 class="text-2xl text-gray-400 font-extrabold">Per Seat</h3>
@@ -256,8 +256,8 @@
         <div class="w-full lg:w-2/5 mt-2 font-inter pl-6 lg:border-l-2 border-dashed border-gray-400">
           <h3 class="text-2xl lg:text-3xl mb-3 font-bold text-[#030712] text-center lg:text-left border-b-2 border-dashed py-5">Select Your Seat</h3>
           <div class="flex flex-col justify-center bg-[#F7F8F8] rounded-3xl p-8">
-            <div class="flex justify-around items-center gap-16 border-b-2 border-dashed pb-2">
-              <h3 class="text-xl font-semibold">Seat <span><sup id="seat-count" class="bg-lime-400 p-1">0</sup></span></h3>
+            <div class="flex justify-around items-center gap-12 lg:gap-16 border-b-2 border-dashed pb-2">
+              <h3 class="text-xl font-semibold">Seat <span><sup id="seat-count" class="bg-lime-400 p-1 rounded-md">0</sup></span></h3>
               <h3 class="text-xl font-semibold">Class</h3>
               <h3 class="text-xl font-semibold">Price</h3>
             </div>
@@ -280,12 +280,12 @@
           <!-- passenger information part -->    
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 font-inter">
               <div class="col-span-5 lg:col-span-5 pl-4">
-                <label for="first-name" class="block text-xl font-semibold text-black">Passenger Name<span class="text-orange-600">*</span></label>
+                <label for="first-name" class="block text-xl font-semibold text-black">Passenger Name*</span></label>
                 <input type="text" name="name" id="name" placeholder="Enter Your Name" class="lg:w-full rounded-md border-0 p-3 text-black shadow-sm ring-1 ring-gray-300 sm:text-sm mt-2">
               </div>
               <div class="col-span-5 lg:col-span-5 pl-4">
                 <label for="phone-no" class="block text-xl font-semibold text-black">Phone Number<span class="text-orange-600">*</span></label>
-                <input type="text" id="phone-no" placeholder="Enter Your Phone Number" class="lg:w-full rounded-md border-0 p-3 text-black shadow-sm ring-1 ring-gray-300 sm:text-sm mt-2">
+                <input type="text" id="phone-no" placeholder="Enter Your Phone Number (11 digit)" class="lg:w-full rounded-md border-0 p-3 text-black shadow-sm ring-1 ring-gray-300 sm:text-sm mt-2">
               </div>
               <div class="col-span-5 lg:col-span-5 pl-4">
                 <label for="email" class="block text-xl font-semibold text-black">Email ID</label>

@@ -10,3 +10,12 @@ function setBackgroundColor(element){
   element.style.color = '#FFFFFF';
   element.style.pointerEvents = 'none';
 }
+
+// total price
+function calculatePrice(elementId, value) {
+  // calculate total price
+  const totalPriceText = document.getElementById(elementId).innerText;
+  let totalPrice = parseInt(totalPriceText);
+  totalPrice = totalPrice + parseInt(value);
+  setInnerText(elementId, totalPrice);
+}
