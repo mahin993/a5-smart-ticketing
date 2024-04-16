@@ -136,10 +136,10 @@ function toggleNextButton(){
 function createModal(){
   const modalHTML = `
     <div class="flex items-center justify-center fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50">
-      <div class="flex flex-col justify-center items-center bg-white rounded-lg w-1/2 p-10">
-        <img src="images/success.png" class="w-[100px] h-[100px] rounded-md mb-4" alt="Success Image">
+      <div class="flex flex-col justify-center items-center bg-white rounded-lg w-full lg:w-1/2 p-10">
+        <img src="images/success.png" class="lg:w-[100px] lg:h-[100px] rounded-md mb-4" alt="Success Image">
         <h2 class="text-2xl font-extrabold mb-4 text-[#27AE60] py-4">SUCCESS</h2>
-        <p class="text-lg font-semibold mb-4 text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
+        <p class="text-md lg:text-lg font-semibold mb-4 text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
         <p class="text-md text-gray-600 mb-4">Shortly you will find a confirmation in your email.</p>
         <button id="continueButton" class="btn bg-[#27AE60] text-white font-extrabold px-16 py-1 rounded-full">Continue</button>
       </div>
